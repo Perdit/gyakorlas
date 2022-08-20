@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4343F9;
+}
+
+button {
+    background-color: #4343F9;
+    width: 240px;
+    height: 360px;
+    border-radius: 4px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border: none;
+    
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;  
+}
